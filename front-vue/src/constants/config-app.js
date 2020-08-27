@@ -1,0 +1,5 @@
+export const nameApp = 'Administrador'
+export const apiUrl = process.env.NODE_ENV === 'production' ? 'http://testcrud.anthonydeyvis.com.ve/api' : 'http://127.0.0.1/TestCrud/back-laravel/api'
+export const AppUrl = process.env.NODE_ENV === 'production' ? 'http://testcrud.anthonydeyvis.com.ve/' : 'http://127.0.0.1/TestCrud/back-laravel/'
+//export const apiUrl = process.env.NODE_ENV === 'production' ? 'https://appordenes.dbg.com.co/api' : 'http://127.0.0.1/SISTEMAORDENESDESERVICIO/API-LARAVEL/'
+export const defaultFolder = process.env.NODE_ENV === 'production' ? '/' : '/'

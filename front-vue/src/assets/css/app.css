@@ -1,0 +1,42 @@
+.nav-sidebar .nav-treeview {
+    padding: 0px 0px 10px 20px !important;
+    font-size: 15px !important;
+}
+
+[class*=sidebar-dark-] .nav-sidebar>.nav-item>.nav-treeview {
+    background-color: #2f3235 !important;
+}
+
+.content {
+	padding: 0px .8rem;
+}
+
+.dropzone{
+	padding: 5px 5px !important;
+}
+
+.main_image .dropzone .dz-preview{
+	position: inherit !important;
+}
+
+#main_image.dropzone .dz-preview{
+	position: inherit !important;
+	margin: 0px !important;
+}
+
+.vue-dropzone>.dz-preview .dz-error-message{
+	top: 0px !important;
+}
+
+.dropzone .dz-preview .dz-error-message{
+	border-radius: 0px !important;
+}
+.main-sidebar, .main-sidebar::before{
+	width: 260px !important;
+}
+
+@media (min-width: 768px){
+	body:not(.sidebar-mini-md) .content-wrapper, body:not(.sidebar-mini-md) .main-footer, body:not(.sidebar-mini-md) .main-header{
+		margin-left: 260px !important;
+	}
+}
